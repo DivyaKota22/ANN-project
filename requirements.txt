@@ -1,4 +1,4 @@
-tensorflow
+tetensorflow-cpu==2.16.1
 pandas 
 numpy
 scikit-learn

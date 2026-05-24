@@ -60,6 +60,6 @@ input_data_scaled=scaler.transform(input_data)
 #prediction estiamted salary
 prediction=model.predict(input_data_scaled)
 prediction_Salary=prediction[0][0]
-st.write(f'Estimated Salary: {prediction_salary:.2f}')
+st.write(f'Estimated Salary: {prediction_Salary:.2f}')
 
 
